@@ -20,8 +20,8 @@ describe('User Data', () => {
     expect(user).to.equal(users[2])
   })
 
-  // it('should calculate the average step goal for a set of users', () => {
-  //   const groupGoal = averageStepGoal(users)
-  //   expect(groupGoal).to.equal(6500)
-  // })
+  it('should calculate the average step goal for a set of users', () => {
+    const groupGoal = averageStepGoal(users)
+    expect(groupGoal).to.equal(6500)
+  })
 });
